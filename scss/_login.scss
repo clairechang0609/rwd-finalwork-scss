@@ -1,0 +1,49 @@
+.login{
+    h3{
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 30px;
+        span{
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+    .form-login{
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        color: $hex-brown;
+        box-shadow: $form-shadow;
+        padding: 15px;
+        @include media-w375(){
+            width: 280px;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: $hex-orange;
+        }
+        h4{
+            font-family: 'Noto Sans TC';
+            font-weight: 900;
+            font-size: 18px;
+            text-align: center;
+        }
+        .form-main{
+            .btn-group{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                .btn-grey, .btn-orange{
+                    width: 45%;
+                }
+            }
+        } 
+    }
+}

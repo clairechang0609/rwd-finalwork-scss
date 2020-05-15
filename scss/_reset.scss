@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: $hex-bg-color;
+    color: $hex-brown;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*, *:before,*:after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html{
+	font-family: Roboto, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+	font-size: 10px;
+}
+a, button{
+    transition: 0.2s ease-in-out;
+}
+a:hover, button:hover{
+	cursor: pointer;
+}
+h2, h3{
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+}
+/* fontawesome */
+.usefontawesome::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+ font-family: "Font Awesome 5 Brands" !important;
+ font-weight:900;
+}
+.usefontawesome:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ font-family: "Font Awesome 5 Brands" !important;
+ font-weight:900;
+}
+.usefontawesome::-moz-placeholder { /* Mozilla Firefox 19+ */
+ font-family: "Font Awesome 5 Pro" !important;
+ font-weight:900;
+}
+.usefontawesome:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ font-family: "Font Awesome 5 Pro" !important;
+ font-weight:900;
+}
+.usefontawesome::-ms-input-placeholder { /* Microsoft Edge */
+ font-family: "Font Awesome 5 Pro" !important;
+ font-weight:900;
+}
+.usefontawesome::placeholder { /* Most modern browsers */
+ font-family: "Font Awesome 5 Pro" !important;
+ font-weight:900;
+}

@@ -1,0 +1,36 @@
+$hex-bg-color: rgb(239,233,231);
+$hex-orange: rgb(245,108,35);
+$hex-orange-dark: rgb(215,78,0);
+$hex-brown: rgb(61,17,1);
+$form-shadow: 3px 3px 4px 0 rgba(0,0,0,0.16);
+
+@mixin hide-text{
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@mixin media-w768{
+    @media (max-width: 768px){
+        @content
+    }
+}
+@mixin media-w667{
+    @media (max-width: 667px){
+        @content
+    }
+}
+@mixin media-w568{
+    @media (max-width: 568px){
+        @content
+    }
+}
+@mixin media-w414{
+    @media (max-width: 414px){
+        @content
+    }
+}
+@mixin media-w375{
+    @media (max-width: 375px){
+        @content
+    }
+}
