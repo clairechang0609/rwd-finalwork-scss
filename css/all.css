@@ -205,12 +205,12 @@ h2, h3 {
     line-height: 1;
   }
 }
-.wrap .header .menu li a:hover {
+.wrap .header .menu li a:hover, .wrap .header .menu li a:focus {
   background: #f56c23;
   line-height: 50px;
 }
 @media (max-width: 768px) {
-  .wrap .header .menu li a:hover {
+  .wrap .header .menu li a:hover, .wrap .header .menu li a:focus {
     line-height: 1;
   }
 }

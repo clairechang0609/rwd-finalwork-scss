@@ -91,7 +91,7 @@
                         border-radius: 20px;
                         line-height: 1;
                     }
-                    &:hover{
+                    &:hover, &:focus{
                         background: $hex-orange;
                         line-height: 50px;
                         @include media-w768(){
